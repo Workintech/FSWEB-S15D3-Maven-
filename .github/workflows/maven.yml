@@ -10,8 +10,8 @@ name: Java CI with Maps&HashMaps
 
 on:
   push:
-    branches: [ "master" ]
-
+    branches: [ "master", "main" ]
+  workflow_dispatch:
 jobs:
   build:
 
